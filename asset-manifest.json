@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/thebishalniroula/react-based-calculator/static/css/main.0b7fa19f.css",
-    "main.js": "/thebishalniroula/react-based-calculator/static/js/main.b4a3c9e5.js",
-    "index.html": "/thebishalniroula/react-based-calculator/index.html",
-    "main.0b7fa19f.css.map": "/thebishalniroula/react-based-calculator/static/css/main.0b7fa19f.css.map",
-    "main.b4a3c9e5.js.map": "/thebishalniroula/react-based-calculator/static/js/main.b4a3c9e5.js.map"
+    "main.css": "/react-based-calculator/static/css/main.0b7fa19f.css",
+    "main.js": "/react-based-calculator/static/js/main.b4a3c9e5.js",
+    "index.html": "/react-based-calculator/index.html",
+    "main.0b7fa19f.css.map": "/react-based-calculator/static/css/main.0b7fa19f.css.map",
+    "main.b4a3c9e5.js.map": "/react-based-calculator/static/js/main.b4a3c9e5.js.map"
   },
   "entrypoints": [
     "static/css/main.0b7fa19f.css",
