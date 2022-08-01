@@ -1,15 +1,15 @@
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: rgb(115, 112, 180);
-  background: linear-gradient(
-    90deg,
-    rgb(90, 85, 196) 0%,
-    rgba(97, 11, 255, 0.986) 54%,
-    rgba(44, 60, 235, 0.74) 100%
-  );
+  background-color: rgb(16, 16, 129);
+}
+.title {
+  color: rgb(216, 212, 212);
+  text-align: center;
+  margin-bottom: 5rem;
 }
 .wrapper {
   width: 100%;
@@ -20,7 +20,7 @@ body {
   /* background-color: white; */
 }
 .recent-operations {
-  background-color: rgba(255, 255, 255, 0.244);
+  background-color: rgba(55, 49, 132, 0.475);
   width: 350px;
   min-height: 390px;
   align-self: flex-start;
@@ -28,7 +28,7 @@ body {
 }
 .recent-operations > h2 {
   text-align: center;
-  color: white;
+  color: rgb(211, 201, 201);
 }
 .calculator-container {
   align-self: flex-start;
@@ -39,13 +39,14 @@ body {
 }
 .output {
   grid-column: 1/-1;
-  background-color: rgba(11, 166, 255, 0.932);
+  background-color: rgb(129, 11, 255);
   min-height: 70px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
   padding: 10px;
+  border-radius: 15px 15px 0 0;
 }
 .previous-operand {
   font-size: 18px;
@@ -58,12 +59,12 @@ body {
   font-weight: 600;
 }
 .calculator-container > button {
-  background-color: rgba(226, 226, 226, 0.911);
+  background-color: rgba(217, 207, 207, 0.911);
   cursor: pointer;
   outline: none;
   border: none;
   margin: 1px;
-  font-size: 16px;
+  font-size: 18px;
   color: rgb(58, 56, 56);
 }
 .calculator-container > button:hover {
@@ -79,7 +80,7 @@ body {
 
 .operation {
   color: #f2eeeecd;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 15px;
   padding-left: 20px;
   margin-right: 25px;
@@ -89,7 +90,7 @@ body {
   display: block;
   height: 2px;
   width: 100%;
-  background-color: rgb(192, 192, 192);
+  background-color: rgba(192, 192, 192, 0.329);
 }
 
 @media only screen and (max-width: 750px) {
